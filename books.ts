@@ -150,7 +150,7 @@ class Library{
         let val = String($(".search").val()).toLowerCase();
         
         for (let index = 0; index < this.bookshelf.length; index++) {
-            if(this.bookshelf[index].title.toLowerCase().includes(val)){
+            if(this.bookshelf[index].title.toLowerCase().includes(val) || this.bookshelf[index].author.toLowerCase().includes(val)){
                 match.push(index);
             }
         }

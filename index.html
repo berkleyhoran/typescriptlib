@@ -10,7 +10,10 @@
     <script src="books.js" defer></script>
 </head>
 <body>
-    <input class="search" placeholder="search for book" onchange="findthisbook()" />
+        <div class="searchoptions">
+            <input class="search" placeholder="search for book" onchange="findthisbook()" />
+            <div class="button" id="searchfor" onclick="findthisbook()">search</div>
+        </div>
     <div class="window"></div>
 </body>
 </html>
