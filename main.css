@@ -1,0 +1,35 @@
+.window{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width:100%;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-flow:column;
+    width:300px;
+    height:250px;
+    border:1px black dotted;
+}
+.title{
+    font-size: 20px;
+}
+.author{
+    font-size: 15px;
+}
+.yop{
+    font-size: 10px;
+}
+.pagenum{
+    font-size: 10px;
+}
+.genre{
+    font-size: 10px;
+}
+.ot{
+    font-size: 10px;
+}
+
